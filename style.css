@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+}
+.center{
+    margin-left: 35%;
+    margin-top: 15%;
+    align-items: center;
+    border-radius: 40px;
+    display: flex;
+}
+.pic{
+    margin-right: 2px;
+}
+.one{
+    height: 200px;
+    width: 100px;
+    background-color: azure;
+    border-radius: 40px;
+    background-image: url("sinchan1`.jpg");
+    background-size: cover;
+}
+.two{
+    height: 200px;
+    width: 100px;
+    background-color: azure;
+    border-radius: 40px;
+    background-image: url("sinchan2.webp");
+    background-size: cover;
+}
+.three{
+    height: 200px;
+    width: 100px;
+    background-color: azure;
+    border-radius: 40px;
+    background-image: url("sinchan3.webp");
+    background-size: cover;
+}
+.four{
+    height: 200px;
+    width: 100px;
+    background-color: azure;
+    border-radius: 40px;
+    background-image: url("sinchan4.webp");
+    background-size: cover;
+}
+.pic:hover{
+    border-radius: 50px;
+    transform: scale(1.5);
+    transition: all 0.3s ease 0s;
+}
